@@ -89,7 +89,6 @@ body {
 .hamburger {
   display: block;
   position: relative;
-  opacity: 60%; 
 }
 
 .hamburger,
@@ -100,7 +99,6 @@ body {
   height: 3px;
   border-radius: 1em;
   transition: transform 250ms ease-in-out;
-  opacity: 60%; 
 }
 
 .hamburger::before,
@@ -109,7 +107,6 @@ body {
   position: absolute;
   left: 0;
   right: 0;
- opacity: 60%; 
 }
 
 .hamburger::before {
@@ -118,12 +115,11 @@ body {
 
 .hamburger::after {
   bottom: 6px;
-    opacity: 60%; 
 }
 
 .nav {
   position: fixed;
-  background: #303030;
+  background: #fff;
   color: #fff;
   top: 0;
   bottom: 0;
