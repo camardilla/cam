@@ -89,6 +89,7 @@ body {
 .hamburger {
   display: block;
   position: relative;
+  opacity: 60%; 
 }
 
 .hamburger,
