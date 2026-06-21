@@ -140,9 +140,8 @@ body {
   margin: 0;
   padding: 0;
   background: #16e0bd;
-  opacity: 60%;
-  
-}
+  background-opacity: 20%;
+  }
 
 .nav__link {
   color: inherit;
