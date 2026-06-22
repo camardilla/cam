@@ -23,7 +23,6 @@ h1 {
 h2 {
   font-size: 2rem;
   color: #fff;
-  background-color: #6667ab ;
   margin: 5px;
 }
 h3 {
@@ -119,7 +118,8 @@ body {
 
 .nav {
   position: fixed;
-  background: #303030;
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+  backdrop-filter: blur(10px);
   color: #fff;
   top: 0;
   bottom: 0;
